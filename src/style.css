@@ -1,0 +1,40 @@
+body {
+  background: url("../src/assets/bg/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.todo-list.input {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list.task-done {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.todo-list.container {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list.title {
+  text-align: center;
+}
+
+.todo-list.task {
+  text-align: center;
+  list-style-type: none;
+}
+
+.todo-list.delete-task {
+  display: none;
+}
+
+.todo-list.delete-task-active {
+  display: inline;
+  cursor: pointer;
+}
