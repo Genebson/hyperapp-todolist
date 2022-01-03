@@ -1,6 +1,6 @@
 import { app } from "hyperapp";
 import html from "hyperlit";
-import State from "./ui/state/state";
+import IState from "./ui/state/state";
 import {
   ToggleDone,
   AddTask,
@@ -9,10 +9,14 @@ import {
   RemoveTask,
 } from "./ui/actions/actions";
 
-const stateMounted = State;
+const baseState: IState = {
+  tasks: [],
+  value: "",
+  done: [],
+};
 
 app({
-  init: { ...stateMounted },
+  init: [baseState],
   view: (state) => html`
     <div id="app">
       <h1 class="todo-list title">To-Do List</h1>
