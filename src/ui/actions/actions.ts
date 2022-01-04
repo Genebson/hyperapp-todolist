@@ -31,8 +31,6 @@ export const ToggleDone: Action<IState, number> = (state, index) => {
 };
 
 export const HandleEnterKey: Action<IState, KeyboardEvent> = (state, e) => {
-  console.log(e.type);
-
   if (e.key !== "Enter") return state;
   return AddTask;
 };
