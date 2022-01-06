@@ -11,7 +11,6 @@ A simple app made to showcase the [HyperApp framework](https://github.com/jorgeb
 - HyperLit — JSX support for HyperApp.
 - Eslint — A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.
 - Prettier — Opinionated code formatter.
-- SASS — CSS extension.
 - Parcel — Web application bundler.
 - Cypress.io — User-friendly test automation tool for E2E, UI, Integration and Unit testing.
 
