@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html -p 8081",
-    "build": "parcel build",
+    "start": "http-server ./dist -c-1",
+    "dev": "parcel src/index.html -p 8080",
+    "build": "parcel build --public-url ./",
     "test:ui:dev": "cypress open",
     "test:ui:headless": "cypress run",
     "prettier:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json\"",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/Genebson/hyperapp-todolist#readme",
   "dependencies": {
+    "http-server": "^14.0.0",
     "hyperapp": "^2.0.20",
     "hyperlit": "^0.3.6"
   },
