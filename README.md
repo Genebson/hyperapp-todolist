@@ -1,4 +1,4 @@
-# HyperApp Bigraphies App
+# HyperApp Todo List App
 
 ![cypress-tests](https://github.com/Genebson/hyperapp-todolist/actions/workflows/cypress-tests.yml/badge.svg)
 
