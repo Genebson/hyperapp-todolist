@@ -2,7 +2,7 @@
   "name": "hyperapp-todolist",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
     "start": "http-server ./dist -c-1",
     "dev": "parcel src/index.html -p 8080",
